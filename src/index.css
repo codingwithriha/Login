@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.loginpage{
+  background: url("./assets/3370612.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.logincard{
+  background: rgba(255, 255, 255, 0.09);
+  box-shadow: 8px 8px 40px rgba(0, 0, 0, 0.9);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 2px solid rgba(255, 255, 255, 0.61);
+  z-index: 999;
+}
